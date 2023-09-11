@@ -2,11 +2,12 @@
 /**
  * main - initiates programme
  *
- * Return; return 0
+ * Return: return 0(success)
  */
 int main(void)
 {
 	int i;
+
 	for (i = '0'; i <= '9'; i++)
 
 	{
