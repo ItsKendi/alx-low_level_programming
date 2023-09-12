@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * mainn - initiates program
+ * main - initiates program
  *
  * Return: return 0
  */
