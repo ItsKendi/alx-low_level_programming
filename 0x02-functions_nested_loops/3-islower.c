@@ -1,12 +1,20 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
- * _islower - to print 1 or 0 depending on the value of c
- * @c: the main parameter
+ * _islower - function name
+ * @c : varable
+ * description : checks if it is caselower
  *
- * Return: Always 0 (success)
+ * Return: int
  */
 int _islower(int c)
 {
-	return (c >= 'a' && c <= 'z');
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
