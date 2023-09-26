@@ -6,23 +6,20 @@
  * @s: The string to search within.
  * @c: The character to find.
  *
- * Return: points first occurrence of 'c' in 's', or NULL if 'c' not found.
+ * Return: A pointer to the first occurrence of 'c' in 's', or NULL if 'c' is not found.
  */
 char *_strchr(char *s, char c)
 {
-	if (s == NULL)
-		return (NULL);
-	while (*s != '\0')
-	{
-		if (*s == c)
-		{
-			return (s);
-		}
+    while (*s != '\0')
+    {
+        if (*s == c)
+        {
+            return s;
+        }
+        s++;
+    }
 
-		s++;
-	}
-
-	return (NULL);
+    return NULL;
 }
 
 
