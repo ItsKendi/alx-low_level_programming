@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_chessboard - print a chess oard
  * @a: the array
@@ -15,7 +15,6 @@ void print_chessboard(char (*a)[8])
 		{
 			_putchar(a[i][j]);
 		}
-
 		_putchar('\n');
 	}
 }
