@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+char *_strpbrk(char *s, char *accept)
+{
+    if (s == NULL || accept == NULL)
+        return NULL;
+
+    while (*s)
+    {
+        char *temp = accept;
+        while (*temp)
+        {
+            if (*s == *temp)
+                return s;
+            temp++;
+        }
+        s++;
+    }
+
+    return NULL;
+}
