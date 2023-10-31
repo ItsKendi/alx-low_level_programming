@@ -1,1 +1,1 @@
-kendi
+kend i
