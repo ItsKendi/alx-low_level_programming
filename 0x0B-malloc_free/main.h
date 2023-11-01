@@ -13,4 +13,5 @@ char *argstostr(int ac, char **av);
 char **strtow(char *str);
 int _putchar(char c);
 int num_words(char *str);
+int str_len(char *str);
 #endif
