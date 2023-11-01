@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,4 +15,6 @@ char **strtow(char *str);
 int _putchar(char c);
 int num_words(char *str);
 int str_len(char *str);
+int len(char *str);
+void free_grid(int **grid, int height);
 #endif
