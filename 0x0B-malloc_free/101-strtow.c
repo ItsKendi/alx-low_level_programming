@@ -45,7 +45,7 @@ char **strtow(char *str)
 
 					if (split[j] != NULL)
 					{
-						while (temp < size)
+					while (temp < size)
 						{
 							split[j][temp] = str[(i - size) + temp];
 							temp++;
@@ -57,7 +57,7 @@ char **strtow(char *str)
 					}
 					else
 					{
-						while (j-- >= 0)
+					while (j-- >= 0)
 							free(split[j]);
 
 						free(split);
